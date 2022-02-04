@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Poppins';
+	src: url(Poppins-ExtraLight.ttf);
+}
+
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+#loginhome{
+    display: flex;
+    width: 100%;
+}
+
+#lateralhome1{
+    background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#lateralhome2{
+    background-image: url("image 2.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 50%;
+    height: 100vh;
+}
+
+#logo{
+   display: flex;
+   justify-content: center;
+   margin-top: 2%;
+}
+
+#logo img{
+    width: 85%;
+}
+
+#areawelcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 42%;
+    height: 28%;
+    padding-bottom: 5%;
+}
+
+#titulo1 {
+    display: flex;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding-top: 10%;
+    width: 10%;
+    font-size: 290%; 
+    color: white;
+}
+
+#texto1{
+    letter-spacing: 0.6px;
+    font-size: 75%;
+    display: flex;
+    width: 60%;
+
+}
+
+p {
+    color: white;
+}
+
+
+#arealogin{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+#login{
+    font-weight: 100;
+    font-size: 150%;
+    padding-left: 8%;
+    padding-bottom: 5%;
+    color: #FFFFFF;
+}
+
+.form{
+    padding-right: 2%;
+    width: 40%;
+    height: 10%;
+    color: white;
+}
+
+
+input{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 70%;
+    text-decoration: none;
+    background: #26292C;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+#areaerrormsg{
+    display: flex;
+    height: 10%;
+}
+
+input[type=submit]{
+    background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    height: 70%;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+::placeholder {
+    padding-left: 15px;
+    color: white;
+  }
