@@ -10,6 +10,7 @@
 }
 
 #areaSeconds{
+    min-width: 110px;
     position: relative;
     display: flex;
     flex-direction: column;

@@ -1,3 +1,4 @@
+import timerLogical from './helpers/timer-logical.js';
 export default function passowrdLogical(){
     const $ = document.querySelector.bind(document);
     const userLogin = $("#areaEmail input");
@@ -12,6 +13,7 @@ export default function passowrdLogical(){
         if (userLogin.value === "admin" && userPassword.value === "admin"){
             homePage.style.display="flex";
             loginPage.style.display="none";
+            timerLogical()
         }
         else{
             errorMsg.style.visibility="visible";
