@@ -1,0 +1,19 @@
+#areaLogin{
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    gap: 50px;
+    bottom: 20%;
+    gap: 10%
+}
+
+#login{
+    font-weight: 100;
+    font-size: 150%;
+    color: #FFFFFF;
+}
+
+#areaEmail.form{
+    width: 100%;
+    height: 250%;
+}

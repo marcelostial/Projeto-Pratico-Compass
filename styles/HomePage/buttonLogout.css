@@ -1,0 +1,17 @@
+#buttonLogout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #1c1d2000;
+    border: 0;
+    width: 10%;
+    height: 100%;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#buttonLogout:hover{
+    color:#C13216;
+}
