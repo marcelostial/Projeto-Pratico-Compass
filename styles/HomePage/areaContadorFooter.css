@@ -1,0 +1,28 @@
+#areaContador{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 10%;
+}
+
+#textContador{
+    width: 30%;
+}
+
+#areaSeconds{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    bottom: 2px;
+}
+
+#nSecond{
+    font-size: 55px;
+}
+
+#tSecond{
+    position: absolute;
+    top: 62px;
+}

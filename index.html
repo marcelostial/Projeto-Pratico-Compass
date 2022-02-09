@@ -3,96 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="iconsite.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="assets/iconsite.png">
+    <script src="index.js" type="module" defer> </script>
     <title>Compass - Login</title>
 </head>
-<body>
+<body onselectstart="return false">
     <main>
-        <section id="loginhome">  
-            <div id="lateralhome1">
+        <section id="loginPage">  
+            <div id="lateralPage1">
 
-                <div id="areawelcome"> 
+                <div id="areaWelcome"> 
                     <h1 id="titulo1"> Olá, </h1>
                     <p id="texto1"> Para continuar navegando de forma segura, efetue login na rede.</p>
                 </div>
-                <div id="arealogin">
+                <div id="areaLogin">
                     <h1 id="login">Login</h1>
-                    <div id="areaemail" class="form">
-                        <input type="email" id="email" required placeholder="Usuário" class="form"><img src="/icons/iconuser.png" class="form" alt="icon user"></div>
-                    <div id="areapassword" class="form">
-                        <input type="password" id="password" required placeholder="Senha"  class="form"><img src="/icons/iconpas.png" class="form" alt="icon user"></div>
-                    <div id="areaerrormsg">
-                        <div id="errormsg"></div>
+                    <div id="areaEmail" class="form">
+                        <input type="text" id="text" required placeholder="Usuário" class="form"> <img draggable="false" src="./assets/iconuser.png" class="form" alt="icon user"></div>
+                    <div id="areaPassword" class="form">
+                        <input type="password" id="password" required placeholder="Senha"  class="form"><img draggable="false" src="./assets/iconpas.png" class="form" alt="icon user"></div>
+                    <div id="areaErrorMsg">
+                        <p id="errorMsg">Ops, usuário ou senha inválidos. Tente novamente!</p>
                     </div>
-    
-                    <div id="areasubmit" class="form"> 
-                        <input type="submit" value="Continuar"  class="boxform"></div>
+                    <div id="areaContinuar">
+                        <button id="continuar"> Continuar</button>
+                    </div>
                 </div>
             </div>
     
-            <div id="lateralhome2">
+            <div id="lateralPage2">
                 <div id="logo">
-                    <img src="/imagens/logo-Compass-branca.png" alt="Logo Compasso"> 
+                    <img draggable="false" src="./assets/logo-Compass-branca.png" alt="Logo Compasso"> 
                 </div>
             </div>
 
         </section>
-        <section id="homepage">
-            <div id="homeheader">
-                <div id="logoheader">
-                    <img src="/imagens/logo-Compass-preta.png" alt="Loga Compass Preta">
+        <section id="homePage">
+            <div id="homeHeader">
+                <div id="logoHeader">
+                    <img draggable="false" src="./assets/logo-Compass-preta.png" alt="Loga Compass Preta">
                 </div>   
-                <div id="areahorario">
+                <div id="areaHorario">
                     <div id="hora">11:26</div>
                     <div id="data">Terça Feira, 17 de março de 2020</div>
                 </div>
-                <div id="areatempo">
+                <div id="areaTempo">
                     <div id="local">Passo Fundo - ES</div>
-                    <div id="icontempo"></div>
+                    <div id="iconTempo"></div>
                     <div id="grau">22°</div>
                 </div>
             </div>
 
-            <div id="homearea">
-                <div id="logocompass">
-                    <img src="/imagens/bola-Logo-Compass.png" alt="Bola Logo Compass">
+            <div id="homeArea">
+                <div id="logoCompass">
+                    <img draggable="false" src="./assets/bola-Logo-Compass.png" alt="Bola Logo Compass">
                 </div>
-                <div id="areatext">
-                    <h3 class="hometext1">Our mission is</h1>
-                    <p class="hometext2">Nossa missão é</p>
-                    <h1 class="hometext1">to transform the world</h1>
-                    <p class="hometext2">transformar o mundo</p>
-                    <h1 class="hometext1">building digital experiences</h1>
-                    <p class="hometext2">construindo experiências digitais</p>
-                    <h1 class="hometext1">that enabled our client's growth</h1>
-                    <p class="hometext2">que permitem o crescimento de nossos clientes</p>
+                <div id="areaText">
+                    <h3 class="homeText1">Our mission is</h1>
+                    <p class="homeText2">Nossa missão é</p>
+                    <h1 class="homeText1">to transform the world</h1>
+                    <p class="homeText2">transformar o mundo</p>
+                    <h1 class="homeText1">building digital experiences</h1>
+                    <p class="homeText2">construindo experiências digitais</p>
+                    <h1 class="homeText1">that enabled our client's growth</h1>
+                    <p class="homeText2">que permitem o crescimento de nossos clientes</p>
                 </div>
             </div>
-            
-            <div id="footerhome">
-                <div id="textfooterarea">
-                    <p id="texfooter">
-                        Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixe-a aberta em segundo plano e abra uma nova janela para continuar a navegar.
-                    </p>
-                </div>
-                <div id="areatemporizador">
-                    <p id="texttemporizador"> Application refresh in</p>
-                    <div id="areaseconds">
-                        <div id="nsecond">600</div>
-                        <div id="tsecond">seconds</div>
+            <div id="footer">
+                <div id="footerHome">
+                    <div id="textFooterArea">
+                        <p id="textFooter">
+                            Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixe-a aberta em segundo plano e abra uma nova janela para continuar a navegar.
+                        </p>
                     </div>
+                    <div id="barra"></div>
+                    <div id="areaContador">
+                        <p id="textContador"> Application refresh in</p>
+                        <div id="areaSeconds">
+                            <div id="nSecond">600</div>
+                            <div id="tSecond">seconds</div>
+                        </div>
                     </div>
-                </div>
-                <button id="buttonnextnavigation">Continuar Navegando</div>
-                <button id="buttonlogout">Logout</div>
-            </div>
-                    <img src="imagens/logo-Compass-branca.png" alt="Logo Compass Branca"> 
+                    <button id="buttonNextNavigation">Continuar<br>Navegando</button>
+                    <button id="buttonLogout">Logout</button>
                 </div>
             </div>
         </section>
     </main>
-
 </body>
 </html>

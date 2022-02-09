@@ -1,0 +1,19 @@
+#buttonNextNavigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border: 0;
+    width: 10%;
+    height: 100%;
+    color: #C13216;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#buttonNextNavigation:hover{
+    color: #F0F0F0;
+    background-color: #C13216;
+}
+

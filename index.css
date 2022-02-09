@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+@import url("./styles/globalStyles.css");
+@import url("./styles/LoginPage/loginPageBase.css");
+@import url("./styles/LoginPage/areaErrorMsg.css");
+@import url("./styles/LoginPage/areaLogin.css");
+@import url("./styles/LoginPage/areaWelcomeLoginHome.css");
+@import url("./styles/LoginPage/inputLogin.css");
+@import url("./styles/LoginPage/logoLoginPage.css");
+
+@import url("./styles/HomePage/HomePageBase.css");
+@import url("./styles/HomePage/logoHeader.css");
+@import url("./styles/HomePage/areaHorario.css");
+@import url("./styles/HomePage/areaTempo.css");
+@import url("./styles/HomePage/homeArea.css");
+@import url("./styles/HomePage/logoBolaCompass.css");
+@import url("./styles/HomePage/areaTextHome.css");
+
+@import url("./styles/HomePage/areaFooterBase.css");
+@import url("./styles/HomePage/areaTextFooter.css");
+@import url("./styles/HomePage/barraFooter.css");
+@import url("./styles/HomePage/areaContadorFooter.css");
+@import url("./styles/HomePage/buttonNextNavigation.css");
+@import url("./styles/HomePage/buttonLogout.css");

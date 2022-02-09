@@ -1,0 +1,8 @@
+#logoCompass{
+    display: flex;
+    align-content: stretch;
+}
+ 
+#logoCompass img{
+    width: 85%;
+}

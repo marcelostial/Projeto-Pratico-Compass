@@ -1,0 +1,10 @@
+#logoHeader{
+    max-width: 300px;
+    vertical-align: baseline;
+    padding-top: 1.8%; 
+    padding-left: 1.5%;
+ }
+
+#logoHeader img{
+    width: 90%;
+ }
