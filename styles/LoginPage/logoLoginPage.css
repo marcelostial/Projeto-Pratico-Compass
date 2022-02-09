@@ -1,9 +1,9 @@
 #logo{
     display: flex;
     justify-content: center;
-    margin-top: 4%;
+    padding-top: 3%;
  }
  
  #logo img{
-     width: 90%;
+     width: 45%;
  }

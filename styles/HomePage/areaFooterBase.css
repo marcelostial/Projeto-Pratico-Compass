@@ -1,11 +1,13 @@
 #footer{
+    display: flex;
     position: absolute;
+    justify-self: flex-end;
     bottom: 0px;
     width: 100%;
 }
 
 #footerHome{
-    display: none;
+    display: flex;
     -webkit-box-align: center;
     align-items: center;
     width: 100%;

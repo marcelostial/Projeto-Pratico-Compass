@@ -1,5 +1,6 @@
 
 #areaHorario{
+    color: #222222;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,6 +9,7 @@
 #hora{
     position: relative;
     font-size: 144px;
+    font-weight: 600;
 }
 
 #data{

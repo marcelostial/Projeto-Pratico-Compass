@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="index.css">
     <link rel="icon" type="image/png" href="assets/iconsite.png">
+    <script src="index.js" type="module" defer> </script>
     <title>Compass - Login</title>
 </head>
 <body onselectstart="return false">
     <main>
-        <section id="loginHome">  
-            <div id="lateralHome1">
+        <section id="loginPage">  
+            <div id="lateralPage1">
 
                 <div id="areaWelcome"> 
                     <h1 id="titulo1"> Olá, </h1>
@@ -20,19 +21,19 @@
                 <div id="areaLogin">
                     <h1 id="login">Login</h1>
                     <div id="areaEmail" class="form">
-                        <input type="email" id="email" required placeholder="Usuário" class="form"> <img draggable="false" src="./assets/iconuser.png" class="form" alt="icon user"></div>
+                        <input type="text" id="text" required placeholder="Usuário" class="form"> <img draggable="false" src="./assets/iconuser.png" class="form" alt="icon user"></div>
                     <div id="areaPassword" class="form">
                         <input type="password" id="password" required placeholder="Senha"  class="form"><img draggable="false" src="./assets/iconpas.png" class="form" alt="icon user"></div>
                     <div id="areaErrorMsg">
                         <p id="errorMsg">Ops, usuário ou senha inválidos. Tente novamente!</p>
                     </div>
-    
-                    <div id="areaSubmit" class="form"> 
-                        <input type="submit" value="Continuar"  class="boxform"></div>
+                    <div id="areaContinuar">
+                        <button id="continuar"> Continuar</button>
+                    </div>
                 </div>
             </div>
     
-            <div id="lateralHome2">
+            <div id="lateralPage2">
                 <div id="logo">
                     <img draggable="false" src="./assets/logo-Compass-branca.png" alt="Logo Compasso"> 
                 </div>

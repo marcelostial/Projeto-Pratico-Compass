@@ -1,25 +1,21 @@
 #areaText{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     text-align: end;
     width: 50%;
     height: 30%;
     margin-top: 3%;
     margin-right: 11%;
+    letter-spacing: 0.4px;
 }
 
 .homeText1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 2.3em;
+    line-height: 1.3em;
+    font-size: 3em;
     color: #C12D18;
-    font-weight: 1000;
+    font-weight: 600;
 }
 .homeText2{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    line-height: 1.3em;
     color: #1C1D20;
-    font-weight: 1000;
+    font-weight: 600;
     font-size: 1.2em;
 }
