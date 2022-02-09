@@ -3,6 +3,11 @@
 	src: url(/fonts/Poppins-ExtraLight.ttf);
 }
 
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(fonts/Poppins-Bold.ttf);
+}
+
 *{
     font-family: 'Poppins';
     margin: 0;
@@ -10,7 +15,7 @@
 }
 
 #loginhome{
-    display: none;
+    display: flex;
     width: 100%;
 }
 
@@ -137,23 +142,86 @@ input[type=submit]{
 
 ::placeholder {
     color: white;
-  }
+}
 
-  #homepage{
-      display: flex;
-      flex-direction: column;
-  }
+#homepage{
+    display: flex;
+    flex-direction: column;
+}
 
-  #homeheader{
-      display: flex;
-  }
+#homeheader{
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 40%;
+}
 
-  #homearea{
-      display: flex;
-  }
+#logoheader{
+   padding-bottom: 6%; 
+   padding-left: 2%;
+}
 
-  #footerhome{
-      display: flex;
-      flex-direction: row;
-      background-color: #1C1D20;
-  }
+#logoheader img{
+    position: absolute;
+}
+
+#areahorario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hora{
+    font-family: "Poppins-Bold";
+    position: relative;
+    font-size: 700%;
+}
+
+#data{
+    top: 130px;
+    position: absolute;
+    font-size: 100%;
+    font-weight: 300;
+}
+
+#homearea{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0;
+}
+
+#logocompass{
+    display: flex;
+    align-content: stretch;
+}
+ 
+#logocompass img{
+    width: 85%;
+}
+
+#areatext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 0px;
+    text-align: end;
+    margin-right: 11.3%;
+}
+
+.hometext1{
+    font-family: "Poppins-Bold";
+    font-size: 300%;
+    color: #C13216;
+    font-weight: 1000;
+}
+.hometext2{
+    color: #1C1D20;
+    font-weight: 1000;
+    font-size: 130%;
+}
+
+#footerhome{
+    display: flex;
+    flex-direction: row;
+    background-color: #1C1D20;
+}
