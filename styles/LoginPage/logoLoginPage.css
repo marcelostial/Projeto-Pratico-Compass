@@ -1,0 +1,9 @@
+#logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+ }
+ 
+ #logo img{
+     width: 45%;
+ }

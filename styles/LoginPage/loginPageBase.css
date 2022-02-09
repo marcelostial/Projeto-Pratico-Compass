@@ -1,0 +1,29 @@
+#loginPage{
+    display: flex;
+    width: 100%;
+}
+
+#lateralPage1{
+    background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+#lateralPage2{
+    background-image: url("../../assets/fundo-login.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 50%;
+    height: 100vh;
+}

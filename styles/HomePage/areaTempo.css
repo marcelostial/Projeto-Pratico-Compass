@@ -1,0 +1,14 @@
+
+#areaTempo{
+    color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 3%;
+}
+
+#grau{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
