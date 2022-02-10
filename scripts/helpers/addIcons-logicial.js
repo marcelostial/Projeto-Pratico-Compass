@@ -4,22 +4,22 @@ export default function addIconsLogical(personalData) {
     let addIcons = ""
 
     if (icons.includes("thunder") && icons.includes("rain")){
-        addIcons="../assets/storm.png"
+        addIcons="./assets/storm.png"
 
     }else if(icons.includes("thunder")){
-        addIcons="../assets/thunder.png"
+        addIcons="./assets/thunder.png"
 
     }else if(icons.includes("rain") || icons.includes("drizzle")){
-        addIcons="../assets/raining.png"
+        addIcons="./assets/raining.png"
 
     }else if(icons.includes("Fog") || icons.includes("Mist")){
-        addIcons="../assets/cloud.png"
+        addIcons="./assets/cloud.png"
 
     }else if(icons.includes("Cloudy") || icons.includes("Overcast")){
-        addIcons="../assets/cloudy.png"
+        addIcons="./assets/cloudy.png"
 
     }else if(icons.includes("Sunny")){
-        addIcons="../assets/sun.png"
+        addIcons="./assets/sun.png"
     
     }
     return addIcons;
