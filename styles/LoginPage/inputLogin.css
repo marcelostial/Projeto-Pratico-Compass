@@ -35,7 +35,7 @@ input:focus{
     color: white;
     font-weight: bold;
     cursor: pointer;
-    height: 48px;
+    height: 55px;
 }
 
 ::placeholder {
