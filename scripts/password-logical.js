@@ -14,6 +14,7 @@ export default function passowrdLogical(){
             homePage.style.display="flex";
             loginPage.style.display="none";
             timerLogical()
+            document.title="Compass - Home"
         }
         else{
             errorMsg.style.visibility="visible";

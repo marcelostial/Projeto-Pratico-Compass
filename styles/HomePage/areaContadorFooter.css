@@ -7,6 +7,7 @@
 
 #textContador{
     width: 30%;
+    font-weight: 300;
 }
 
 #areaSeconds{
@@ -21,9 +22,11 @@
 
 #nSecond{
     font-size: 55px;
+    font-family: 600;
 }
 
 #tSecond{
     position: absolute;
+    font-weight: 300;
     top: 62px;
 }

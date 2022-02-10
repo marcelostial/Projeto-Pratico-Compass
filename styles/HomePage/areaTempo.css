@@ -6,21 +6,24 @@
     margin-right: 4%;
     height: 30%;
     margin-top: 1.5%;
+    font-size: 0.9em;
 }
 
 #climate{
     display: flex;
     align-items: center;
     height: 100%;
-    gap: 15%;
+    gap: 3%;
 }
 
 #iconTempo{
-    height: 60%;
+    height: 54%;
+    padding-left: 5%;
 }
 
 #grau{
+    padding-left: 10%;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 45px;
+    font-size: 49px;
 }
