@@ -7,6 +7,12 @@ export default function timerLogical(){
         timerSeconds.innerHTML = seconds;
         seconds--
         if (!seconds){
+            history.pushState(
+                null,
+                "Compass - Login",
+                "https://marcelostial.github.io/Projeto-Pratico-Compass/",
+
+            )
             window.location.reload();
         }
     }, 1000);
