@@ -15,6 +15,12 @@ export default function passowrdLogical(){
             loginPage.style.display="none";
             timerLogical()
             document.title="Compass - Home"
+
+            history.pushState(
+                null,
+                "Compass - Homepage",
+                "https://marcelostial.github.io/Projeto-Pratico-Compass/Home",
+            )
         }
         else{
             errorMsg.style.visibility="visible";

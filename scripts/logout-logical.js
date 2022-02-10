@@ -3,6 +3,11 @@ export default function buttonLogout(){
     const clickLogout =$("#buttonLogout");
 
     clickLogout.addEventListener("click", () => {
+        history.pushState(
+            null,
+            "Compass - Login", 
+            "https://marcelostial.github.io/Projeto-Pratico-Compass/"
+        )   
         window.location.reload();
     });
 }
