@@ -27,3 +27,7 @@
     width: 50%;
     height: 100vh;
 }
+
+#logobrancamobile{
+    display: none;
+}

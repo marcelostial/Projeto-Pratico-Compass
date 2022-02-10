@@ -1,0 +1,77 @@
+@media (max-width: 800px) {
+    #lateralPage2{
+      display: none;
+
+    }
+    #lateralPage1{
+        width: 100%;  
+        justify-content: flex-start;
+        gap: 100px;
+    }
+
+    #logobrancamobile{
+        display: block;
+        width: 340px;
+    }
+
+    #logobrancamobile img{
+        position: absolute;
+        height: 50px;
+        right: 5%;
+        top: 2%;
+    }
+
+    #areaWelcome{
+        font-size: 1.5em;
+        width: 80%;
+        margin-right: 10%;
+    }
+
+    #texto1{
+        width: 90%;
+    }
+
+    #areaLogin{
+        width: 70%;
+        font-size: 1.2em;
+    }
+
+    .form{
+        font-size: 1.1em;
+    }
+
+    #continuar{
+        font-size: 1.2em;
+        height: 70px;
+    }
+
+    #errorMsg{
+        font-size: 0.8em;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    #areaWelcome{
+        width: 60%;
+        margin-right: 10%;
+    }
+
+    #texto1{
+        width: 100%;
+    }
+
+    #areaLogin{
+        width: 60%;
+    }
+}
+
+@media (max-width: 375px){
+
+    #areaLogin{
+        width: 60%;
+        height: 10vh;
+        gap: 1px;
+    }
+}

@@ -1,7 +1,9 @@
 #logoCompass{
-    display: flex;
-    align-content: stretch;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
 }
+
  
 #logoCompass img{
     width: 85%;

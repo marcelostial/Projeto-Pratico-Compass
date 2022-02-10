@@ -21,3 +21,6 @@
 @import url("./styles/HomePage/areaContadorFooter.css");
 @import url("./styles/HomePage/buttonNextNavigation.css");
 @import url("./styles/HomePage/buttonLogout.css");
+
+@import url("./styles/Mediaqueries/mediaqueriesLoginPage.css");
+@import url("./styles/Mediaqueries/mediaqueriesHomePage.css");

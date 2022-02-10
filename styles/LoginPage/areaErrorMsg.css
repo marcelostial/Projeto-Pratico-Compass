@@ -1,13 +1,14 @@
 #areaErrorMsg{
     display: flex;
-    align-items: center;
+    align-self: center;
     padding-bottom: 10px;
+    width: 80%;
 }
 
 #errorMsg{
     visibility: hidden;
     text-align: center;
     color: #E9B425;
-    font-size: 16px;
+    font-size: 14.5px;
     font-weight: bold;
 }
